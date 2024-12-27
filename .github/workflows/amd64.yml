@@ -10,7 +10,8 @@ on:
 
 jobs:
   pull_and_package:
-    runs-on: ubuntu-latest
+    #uns-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
     - name: Checkout repository
